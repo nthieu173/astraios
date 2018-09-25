@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="radar.js"></script>
+	</head>
+	<body>
+		<img id="shipImg" src="arrowship.png"/>
+		<div class="flex-container main-container">
+			<div class="radar-item">
+				<canvas class="white-border" id="radarCanvas" width="1200px" height="1200px" style="width: 100%; height: 100%; background-color: black;"></canvas>
+			</div>
+			<div class="flex-container sidebar-item">
+				<div class="status-item white-border">
+					<table class="status-table white-table">
+						<tr>
+							<th>Name:</th>
+							<td>Arrowship</td>
+						</tr>
+						<tr>
+							<th>Health:</th>
+							<td>100/100</td>
+						</tr>
+						<tr>
+							<th>Fuel:</th>
+							<td>20/100</td>
+						</tr>
+					</table>
+				</div>
+				<div class="navigation-item white-border"></div>
+			</div>
+		</div>
+	
+		<table class="event-table white-table white-border">
+			<caption>Events</caption>
+			<thead>
+				<tr>
+					<th>Turn</th>
+					<th>Sub-turn</th>
+					<th>Owner</th>
+					<th>Object</th>
+					<th>Action</th>
+					<th>Result</th>
+					<th>Comment</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>1</td>
+					<td>Uno</td>
+					<td>Ship</td>
+					<td>Rotated 5 degrees</td>
+					<td>Success</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>Uno</td>
+					<td>Ship</td>
+					<td>Fired engine for 500 m/s</td>
+					<td>Success</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>3</td>
+					<td>Uno</td>
+					<td>Ship</td>
+					<td>Rotated 5 degrees</td>
+					<td>Failure</td>
+					<td>Not enough energy</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.white-border {
+    border-width: 0.01vw;
+    border-style: solid;
+    border-color: white;
+}
+
+.main-container {
+    justify-content: center;
+}
+
+.radar-item {
+    height: 55vw;
+    width: 55vw;
+    margin-right: 0.5vw;
+}
+
+.sidebar-item {
+    flex-direction: column;
+    height: 55vw;
+    width: 40vw;
+    margin-left: 0.5vw;
+}
+
+.status-item {
+    height: 15vw;
+    width: 40vw;
+    margin-bottom: 0.5vw;
+}
+
+#shipImg {
+	display: none;
+}
+
+.navigation-item {
+    height: 40vw;
+    width: 40vw;
+    margin-top: 0.5vw;
+}
+
+.event-item {
+    height: 14vw;
+    width: 96vw;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-table {
+    margin-top: 1vw;
+    width: 96vw;
+}
+
+.status-table {
+	width: 100%
+}
+
+.white-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border-color: white;
+    border-width: 0.01vw;
+    border-style: solid;
+}
+
+caption {
+    border-width: 0.01vw;
+    border-color: white;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}

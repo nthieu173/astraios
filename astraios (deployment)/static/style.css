@@ -1,0 +1,166 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+}
+
+th, td {
+	border-color: white;
+	border-width: 0.01vw;
+	border-style: solid;
+}
+
+caption {
+	border-width: 0.01vw;
+	border-color: white;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+data {
+	display: none;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.main-container {
+	justify-content: center;
+}
+
+.white-border {
+	border-width: 0.01vw;
+	border-style: solid;
+	border-color: white;
+}
+
+.radar-item {
+    height: 55vw;
+    width: 55vw;
+    margin-right: 0.5vw;
+}
+
+.sidebar-item {
+    flex-direction: column;
+    height: 55vw;
+    width: 40vw;
+    margin-left: 0.5vw;
+}
+
+.status-item {
+    height: 7vw;
+    width: 40vw;
+    margin-bottom: 0.5vw;
+}
+
+.navigation-item {
+    height: 30vw;
+    width: 40vw;
+    margin-top: 0.5vw;
+}
+
+.control-item {
+	height: 13vw;
+	width:40;
+	margin-top: 0.5vw;
+	margin-bottom: 0.5vw;
+}
+
+.event-item {
+    height: 14vw;
+    width: 96vw;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-table {
+    margin-top: 1vw;
+    width: 96vw;
+}
+
+.status-table {
+	width: 100%;
+	height: 100%;
+}
+
+.control-table {
+	width: 100%;
+	height: 100%;
+}
+
+.navigation-table {
+	width: 100%;
+	height: 100%;
+}
+
+.white-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.turn-button {
+    height: 2.7vw;
+	width: 17vw;
+    background-color: black;
+    border-style: solid;
+    border-width:0.01vw;
+    border-color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.turn-button:hover {
+    background-color: white;
+    color: grey;
+}
+
+.step-input {
+	height: 2.7vw;
+	width: 21vw;
+	margin-right: 0.5vw;
+    background-color: black;
+    border-style: solid;
+    border-width:0.01vw;
+    border-color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#radarCanvas {
+	width: inherit;
+	height: 100%;
+	background-color: black;
+}
+
+#shipImg {
+	display: none;
+}
+
+#de-input, #dt-input {
+	width:99%;
+	height: 99%;
+    background-color: black;
+    border-style: solid;
+    border-width:0.01vw;
+    border-color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
